@@ -4,7 +4,23 @@ The flow used the node-red package
 https://github.com/scne/node-red-contrib-lora-packet-converter/tree/master/lora-packet-converter
 the base of the code is this node.js package 
 https://github.com/anthonykirby/lora-packet
+#
+## Motivation
+I want to send the Lora Message directly via mqtt to node-red and process
+them there with out the need of a LoraWAN server ot go the cloud like TheThingNetwor
 
+### Other references for Test 
+I used a LoPy form PYCOM as a single channel gateway aka nanogateway
+https://pycom.io/product/lopy4/
+and a PI LoRa bonnett
+https://www.adafruit.com/product/4074
+https://learn.adafruit.com/using-lorawan-and-the-things-network-with-circuitpython?view=all
+
+here a good links for testing the decryption/
+https://lorawan-packet-decoder-0ta6puiniaut.runkit.sh
+https://codebeautify.org/string-hex-converter
+here more infos
+https://forum.pycom.io/topic/3958/how-decrypt-lora-data/3
 
 
 ### Here the Node-RED test flow with example message
